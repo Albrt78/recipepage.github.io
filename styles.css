@@ -72,7 +72,6 @@ body {
 
 .info-card {
     font-family: "Outfit", sans-serif;
-    padding-left: 1.2rem;
     font-size: 0.98rem;
     line-height: 2rem;
     margin-top: -0.5rem;
@@ -148,10 +147,6 @@ h3 {
     margin-bottom: 1rem;
 }
 
-/* .nutritions-info table tr {
-    border-bottom: 1px solid var(--Wenge-Brown);
-} */
-
 .nutritions-info th {
     padding-left: 2rem;
     padding-bottom: 0.7rem;
@@ -197,15 +192,60 @@ h3 {
 }
 
 @media (max-width: 576.98px) {
-    #wrapper {
-        width: 100%;
-    }
-
     #card-wrapper #title {
         font-size: 1.6rem;
     }
 
     .info-card li {
         font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 320.98px) {
+    #card-wrapper #title {
+        font-size: 1.3rem;
+    }
+
+    #description {
+        font-size: 0.8rem;
+    }
+
+    #card-wrapper {
+        margin-inline-start: 1.5rem;
+        margin-inline-end: 0.5rem;
+    }
+
+    #info-card h2 {
+        font-size: 1rem;
+    }
+
+    .info-card li {
+        font-size: 0.73rem;
+    }
+
+    .info-card li strong {
+        padding-left: 0.7rem;
+    }
+
+    .ingredients {
+        font-size: 0.9rem;
+    }
+
+    .instructions {
+        font-size: 0.9rem;
+    }
+
+    .nutritions-info p {
+        font-size: 0.9rem;
+    }
+
+    .nutritions-info th {
+        padding-left: 2rem;
+        font-size: 0.9rem;
+    }
+
+    .nutritions-info td {
+        padding-right: 0;
+        font-size: 0.9rem;
     }
 }
